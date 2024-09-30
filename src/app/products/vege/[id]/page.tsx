@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 interface Params {
   params:{
@@ -6,7 +7,10 @@ interface Params {
 }
 const page = ({params}:Params) => {
   return (
-    <div>Item Code is {params.id}</div>
+    <div>
+      <h1>Item is {params.id}</h1>
+      <Link href="/products/vege">Back to Vege</Link>
+      </div>
   )
 }
 
