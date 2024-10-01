@@ -15,7 +15,7 @@ export default function Home() {
 
       
       </section>
-      <Link className=" py-48 px-4" href='https://nextjs.org/docs' target="_blank">Go to Next js Docs</Link>
+      {/* <Link className=" py-48 px-4" href='https://nextjs.org/docs' target="_blank">Go to Next js Docs</Link> */}
     </main>
   );
 }
